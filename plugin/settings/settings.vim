@@ -119,11 +119,14 @@ let g:cpp_member_variable_highlight=1
 
 " Two ways to hightlight template functions
 " 1: Works in most cases, but can be a little slow on large files
-"let g:cpp_experimental_simple_template_highlight = 1
+"let g:cpp_experimental_simple_template_highlight=1
 " 2: A faster implementation but has some corner cases where it doesn't work
-let g:cpp_experimental_template_highlight=1
+"let g:cpp_experimental_template_highlight=1
 
 "-----------------------------------------------------------------------------
 " Window size of Taglist
 "-----------------------------------------------------------------------------
-let Tlist_Inc_Winwidth=20
+let Tlist_Inc_Winwidth=30
+"let Tlist_Auto_Open=1
+let Tlist_Use_Right_Window=1
+

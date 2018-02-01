@@ -302,3 +302,21 @@ hi def link cBoolean Boolean
 "hi def link cDelimiter Delimiter
 " foldmethod=syntax fix, courtesy of Ivan Freitas
 "hi def link cBraces Delimiter
+
+
+"hi def link cCppSkip  Todo
+"hi def link cBlock  Todo
+"hi def link cCppParen  Todo
+"hi def link cParen  Todo
+"hi def link cBitField  Todo
+"hi def link cNumbersCom  Todo
+"hi def link cNumbers  Todo
+"hi def link cCustomParen  Todo
+"hi def link cCustomDot  Todo
+"hi def link cCustomPtr  Todo
+"hi def link cCppInIf  Todo
+"hi def link cUserCont  Todo
+"hi def link cCustomDot  Todo
+"hi def link cCustomPtr  Todo
+
+hi! link cTypeTag Class

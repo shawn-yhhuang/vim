@@ -28,7 +28,7 @@ map 0 ^
 " compile .c with <F7>
 map <F7> :w<CR> :!clear<CR> :!gcc % -o %< && ./%< <CR>
 " compile .cpp with <F8>
-map <F8> :w<CR> :!clear<CR> :!g++ -std=c++11 % -o %< && ./%< <CR>
+"map <F8> :w<CR> :!clear<CR> :!g++ -std=c++11 % -o %< && ./%< <CR>
 
 " vertical resize
 nmap + <C-W>>
@@ -47,3 +47,5 @@ imap <C-Y> <Esc>A;
 
 " Change working directory to currently opened file
 map <Leader>c :cd %:h<CR>
+
+map <F12> :colorscheme solarized_light<CR>
